@@ -1,4 +1,5 @@
 # eq-coach-mvp
+
 real-time emotional intelligence communication app
 📘 EQ Coach MVP — README
 
@@ -38,7 +39,7 @@ Real-Time Feedback: Helps users improve communication habits over time
 
 Clone the repo:
 
-git clone https://github.com/your-username/eq-coach-mvp.git
+git clone https://github.com/shopiers/eq-coach-mvp.git
 cd eq-coach-mvp
 
 Install dependencies:
@@ -49,8 +50,8 @@ Firebase CLI: npm install -g firebase-tools
 
 Configure .env:
 
-OPENAI_API_KEY=your_openai_key
-FIREBASE_PROJECT_ID=your_project_id
+OPENAI\_API\_KEY=your\_openai\_key
+FIREBASE\_PROJECT\_ID=your\_project\_id
 
 Deploy Firebase Functions:
 
@@ -60,11 +61,11 @@ firebase deploy --only functions
 
 Located in /ai/prompts/:
 
-tone_classification.txt
+tone\_classification.txt
 
-reply_generation.txt
+reply\_generation.txt
 
-scoring_model.txt
+scoring\_model.txt
 
 Use Codex to iterate and refine emotional nuance.
 
@@ -78,21 +79,21 @@ Optional gamification: streaks, badges, scoreboard
 
 🧪 Sample Codex Functions
 
-# analyze_tone.py
+# analyze\_tone.py
 
-def analyze_tone(message: str) -> dict:
-    # Use OpenAI API to classify tone
-    # Return tone label + confidence score
+def analyze\_tone(message: str) -> dict:
+# Use OpenAI API to classify tone
+# Return tone label + confidence score
 
-# generate_replies.py
+# generate\_replies.py
 
-def generate_replies(message: str, tone: str) -> list:
-    # Generate 3 emotionally intelligent replies
+def generate\_replies(message: str, tone: str) -> list:
+# Generate 3 emotionally intelligent replies
 
-# score_interaction.py
+# score\_interaction.py
 
-def score_interaction(reply: str) -> int:
-    # Score based on empathy, clarity, positivity
+def score\_interaction(reply: str) -> int:
+# Score based on empathy, clarity, positivity
 
 🧩 Integration Notes
 
@@ -106,11 +107,11 @@ users/{userId}/scores/{date}
 
 🧭 Roadmap
 
-[ ] Chrome extension for real-time tone coaching
+\[ ] Chrome extension for real-time tone coaching
 
-[ ] Multi-user scoring dashboard
+\[ ] Multi-user scoring dashboard
 
-[ ] Vertical-specific prompt tuning (dating, workplace, family)
+\[ ] Vertical-specific prompt tuning (dating, workplace, family)
 
 🤝 Contributing
 
@@ -121,3 +122,4 @@ Pull requests welcome! For major changes, please open an issue first to discuss 
 MIT License — feel free to remix, extend, and build on this foundation.
 
 Endnote: Adding initial README with vision, modular structure, and onboarding notes on October 03rd, 2025
+
