@@ -1,0 +1,4 @@
+* text=auto
+*.ipynb diff=jupyternotebook
+*.sh text eol=lf
+*.bat text eol=crlf
